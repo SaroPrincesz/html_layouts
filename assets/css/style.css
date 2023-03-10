@@ -59,7 +59,6 @@ li:hover {
 }
 footer {
   background-color: gray;
-  position: fixed;
 }
 #footer_logo{
     width: 100px;
@@ -75,4 +74,8 @@ footer {
     border: 2px solid grey; 
     margin: 15px; 
     padding: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
 }
