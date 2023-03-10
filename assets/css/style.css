@@ -1,0 +1,78 @@
+header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 1300px;
+  background-color: rgb(250, 249, 247);
+}
+.home_images {
+  width: 1300px;
+  height: 600px;
+}
+#logo {
+  width: 150px;
+}
+#header_logo {
+  float: left;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+#header_nav {
+  float: right;
+  margin: 18px;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+a:hover {
+  background-color: floralwhite;
+  border-radius: 5px;
+  color: rgb(24, 8, 8);
+}
+#nav_links {
+  display: inline;
+  list-style: none;
+  margin: 80px;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.main_div {
+  display: flex;
+  flex-direction: column;
+}
+.aside_section {
+  width: 250px;
+  height: 590px;
+  background-color: rgb(167, 240, 240);
+}
+#product_link {
+  list-style: none;
+  font-size: 20px;
+}
+li:hover {
+  color: brown;
+}
+footer {
+  background-color: gray;
+  position: fixed;
+}
+#footer_logo{
+    width: 100px;
+    border-radius: 5px ;
+    background-color: rgb(66, 66, 66);
+}
+.div-left{
+    border: 2px solid grey; 
+    margin: 15px; 
+    padding: 15px;
+}
+.div-right{
+    border: 2px solid grey; 
+    margin: 15px; 
+    padding: 15px;
+}
