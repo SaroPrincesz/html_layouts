@@ -78,4 +78,8 @@ footer {
 .row{
     display: flex;
     justify-content: space-between;
+    text-align: center;
+}
+.contact_para{
+  width: 610px;
 }
